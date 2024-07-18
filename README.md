@@ -30,37 +30,34 @@ To set up and run the application, follow these steps:
    ```bash
    git clone <repository_link>
    cd <repository_name>
-Create a Virtual Environment
-
-bash
-Copy code
+   ### Create a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
 Install Required Libraries
 Create a requirements.txt file in the root directory with the following content:
 
-text
-Copy code
 Flask==2.0.1
 transformers==4.16.2
 gtts==2.2.3
 fuzzywuzzy==0.18.0
+
 Install the dependencies using:
 
-bash
-Copy code
+
 pip install -r requirements.txt
+
 Run the Application
 
-bash
-Copy code
+
 python chatbot_server.py
 The application will be accessible at http://127.0.0.1:5000/.
 
 Issues and Troubleshooting
 LF/CRLF Warning: A warning about LF being replaced by CRLF is related to line endings in text files. This does not affect the functionality of the application.
 Video Demonstration
-Watch the one-minute video demonstrating the chatbot in action: Chatbot Demonstration
+Watch the one-minute video demonstrating the chatbot in action: https://www.loom.com/share/d21271a964024bb9a2e4db3264795e06?sid=4f1ba900-011d-42c7-9a18-c22372d15bcc
 
 Contact
 For any queries or feedback, please contact Harshavardhan at harshavardhanmanavalan@gmail.com.
